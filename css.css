@@ -1,0 +1,45 @@
+#nav{
+    display: flex;
+    background-color: #333;
+}
+ul {
+    list-style-type: none;
+    /* Remove the bullet points */
+    margin: 0;
+    /* Remove the default margin */
+    padding: 0;
+    /* Remove the default padding */
+    overflow: hidden;
+    /* Hide any overflowing content */
+    
+    /* Set the background color */
+    float: left;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+/* Style the links inside the menu bar */
+li {
+    float: right;
+    /* Float the list items to the left */
+}
+
+li a {
+    display: block;
+    /* Display the links as blocks */
+    color: white;
+    /* Set the text color */
+    text-align: center;
+    /* Center the text */
+    padding: 14px 16px;
+    /* Add some padding */
+    text-decoration: none;
+    /* Remove the underline */
+}
+
+/* Add a hover effect to the links */
+li a:hover {
+    background-color: #111;
+    /* Change the background color */
+}

@@ -1,0 +1,88 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+  }
+  
+  a {
+    color: #000;
+    text-decoration: none;
+  }
+  
+  /* Header Section */
+  header {
+    background-color: #fff;
+    border-bottom: 1px solid #eee;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .logo img {
+    height: 40px;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav ul li {
+    margin-right: 20px;
+  }
+  
+  .search input[type="text"] {
+    padding: 10px;
+    border-radius: 2px;
+    border: none;
+    margin-right: 10px;
+  }
+  
+  .search button {
+    padding: 10px;
+    border-radius: 2px;
+    border: none;
+    background-color: #ff4d4d;
+    color: #fff;
+  }
+  
+  /* Banner Section */
+  .banner {
+    height: 300px;
+    background-color: #eee;
+  }
+  
+  /* Categories Section */
+  .categories {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .categories ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .categories ul li {
+    margin-right: 20px;
+  }
+  
+  /* Products Section */
+  .products {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+  }
+  
+  
+  
